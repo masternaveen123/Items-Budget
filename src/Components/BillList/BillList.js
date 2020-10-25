@@ -23,7 +23,7 @@ const BillList = () => {
                 })}>
               </input>
               <div className='bill-list-row-content'>
-                {bill.title} - ${bill.monthlyCost}
+                {bill.title} - ₹{bill.monthlyCost}
               </div>
             </div>
           );
